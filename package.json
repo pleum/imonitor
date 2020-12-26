@@ -1,0 +1,22 @@
+{
+  "name": "imonitor",
+  "version": "1.0.0",
+  "description": "Apple product monitor for pickup availability",
+  "main": "dist/main.js",
+  "scripts": {
+    "start": "ts-node src/main.ts"
+  },
+  "keywords": [],
+  "author": "pleum",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^14.14.16",
+    "ts-node": "^9.1.1",
+    "typescript": "^4.1.3"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "dotenv": "^8.2.0",
+    "mitt": "^2.1.0"
+  }
+}
